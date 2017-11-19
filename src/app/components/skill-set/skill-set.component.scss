@@ -1,0 +1,25 @@
+#t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#breadth {
+  display: flex;
+}
+
+#depth {
+  width: 10rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#breadth > div, #depth > div {
+  width: 10rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #222;
+}

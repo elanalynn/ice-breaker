@@ -1,7 +1,11 @@
-html {
+html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  background: linear-gradient(rgb(58, 117, 96), rgb(29, 34, 34));
+h1, h2, h3, h4, h5, h6, div, span, p, a {
+  margin: 0;
+  padding: 0;
 }

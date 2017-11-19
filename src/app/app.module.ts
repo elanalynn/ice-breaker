@@ -3,11 +3,23 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {
+  DeliberatePracticeComponent,
+  ElanasHierarchyComponent,
+  ResumeExperienceComponent,
+  SkillSetComponent,
+  WhyToastmastersComponent
+ } from './components';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DeliberatePracticeComponent,
+    ElanasHierarchyComponent,
+    ResumeExperienceComponent,
+    SkillSetComponent,
+    WhyToastmastersComponent
   ],
   imports: [
     BrowserModule

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeliberatePracticeComponent implements OnInit {
 
+  public title = '10,000 Hours of Deliberate Practice';
+
   constructor() { }
 
   ngOnInit() {

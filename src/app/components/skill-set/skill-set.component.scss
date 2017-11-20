@@ -1,9 +1,3 @@
-#t {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #breadth {
   display: flex;
 }
@@ -17,9 +11,10 @@
 
 #breadth > div, #depth > div {
   width: 10rem;
-  height: 6rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  text-align: center;
   border: 1px solid #222;
 }

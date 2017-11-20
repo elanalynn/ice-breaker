@@ -1,8 +1,14 @@
 <header>
   <h1>Hello, my name is Elana.</h1>
+  <h3>{{ title }}</h3>
 </header>
-<router-outlet></router-outlet>
 <nav>
-  <button><</button>
-  <button>></button>
+  <a routerLink="/what">WHAT</a>
+  <a routerLink="/why">WHY</a>
+  <a routerLink="/who">WHO</a>
+  <a routerLink="/how">HOW</a>
+  <a routerLink="/when">WHEN</a>
+  <!-- <button><</button>
+  <button>></button> -->
 </nav>
+<router-outlet></router-outlet>

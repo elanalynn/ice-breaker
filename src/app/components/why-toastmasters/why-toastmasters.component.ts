@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhyToastmastersComponent implements OnInit {
 
+  public title = 'Verbal Communication is Important';
+
   constructor() { }
 
   ngOnInit() {

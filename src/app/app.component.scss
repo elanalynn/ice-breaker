@@ -1,10 +1,23 @@
 header {
-  background: cadetblue;
+  background: rgb(230, 130, 94);
   color: white;
-  padding: 1em;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-around;
+
+  h3 {
+    margin: .4em;
+  }
 }
 
 nav {
-  position: fixed;
-  bottom: 0;
+  background: #444;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    color: white;
+    text-decoration: none; 
+  }
 }

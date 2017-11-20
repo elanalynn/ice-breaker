@@ -2,10 +2,26 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  background: #222;
 }
 
-h1, h2, h3, h4, h5, h6, div, span, p, a {
+main {
+  background: white;
+  width: 100%;
+  height: 100%;
+  padding: 3em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    align-self: flex-start;
+    margin-left: 6em;
+  }
+}
+
+h1, h3 {
   margin: 0;
   padding: 0;
 }

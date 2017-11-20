@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ElanasHierarchyComponent implements OnInit {
 
+  public title = 'Hierarchy of Motivation';
+
   constructor() { }
 
   ngOnInit() {

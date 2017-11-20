@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillSetComponent implements OnInit {
 
+  public title = 'I am a Software Developer with a focus on UI';
+
   constructor() { }
 
   ngOnInit() {
